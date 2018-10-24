@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": 6,
+      "name": "ADASDASDAS",
+      "description": "This is a indigo item"
+    },
+    {
+      "id": 7,
+      "name": "Violet Item",
+      "description": "This is a violet item"
+    }
+  ]
+}
