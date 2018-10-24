@@ -8,9 +8,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent, MapComponent, ChatComponent } from './_components';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, HomeComponent, MapComponent, ChatComponent],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,

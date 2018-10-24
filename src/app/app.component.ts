@@ -3,9 +3,13 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Chat App';
-  links = [{ path: '/items', icon: 'list', label: 'Items' }];
+  title = 'Chat App Evolvice';
+  navLinks = [
+    { path: '/home', icon: 'home', label: 'Home' },
+    { path: '/map', icon: 'map', label: 'Map' },
+    { path: '/chat', icon: 'chat', label: 'Chat' }
+  ];
 }
