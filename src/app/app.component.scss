@@ -8,7 +8,13 @@
 :host {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.app-content {
+  padding: 15px;
   flex: 1;
+  overflow-y: auto;
 }
 mat-toolbar {
   background: #f12711 !important; /* fallback for old browsers */
@@ -33,8 +39,14 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-top: 2px solid $color-grey;
+    background-color: $bg-color-gray;
+
     a {
       text-decoration: none;
+      color: $color-text-light-grey;
+    }
+    .active__tab {
       color: $color-brand;
     }
   }

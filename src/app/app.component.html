@@ -1,15 +1,17 @@
+<!-- Header -->
 <mat-toolbar>
   <span>
     {{title}}
   </span>
 </mat-toolbar>
-
-<router-outlet></router-outlet>
-
-
-<nav mat-tab-nav-bar>
+<!-- Contnet -->
+<div class="app-content">
+  <router-outlet></router-outlet>
+</div>
+<!-- Navigation -->
+<nav mat-tab-nav-bar [disableRipple]="true">
   <div class="tabs-container">
-    <a mat-tab-link *ngFor="let link of navLinks" [routerLink]="link.path" [routerLinkActive]="['class']" #rla="routerLinkActive"
+    <a mat-tab-link *ngFor="let link of navLinks" [routerLink]="link.path" [routerLinkActive]="['active__tab']" #rla="routerLinkActive"
       [active]="rla.isActive">
       <mat-icon>{{link.icon}}</mat-icon>
       <hr>
