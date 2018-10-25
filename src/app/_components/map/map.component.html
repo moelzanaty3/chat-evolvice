@@ -1,3 +1,8 @@
-<p>
-  map works!
-</p>
+<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+  <agm-marker *ngFor="let marker of markers; let i = index" [latitude]="marker.lat" [longitude]="marker.lng" [label]="marker.label"
+    [iconUrl]="marker.iconUrl" (markerClick)="clickedMarker(marker)">
+    <agm-info-window *ngIf="placeInfo">
+      <strong>{{placeInfo}}</strong>
+    </agm-info-window>
+  </agm-marker>
+</agm-map>

@@ -5,7 +5,7 @@
   "angular-cli": {},
   "scripts": {
     "ng": "ng",
-    "start": "concurrently \"npm run server\" \"ng serve -o --port=9000\"",
+    "start": "concurrently \"npm run server\" \"ng serve --watch --open\"",
     "server": "json-server server/api/db.json --watch",
     "format:fix": "pretty-quick --staged",
     "precommit": "run-s format:fix lint",
@@ -22,6 +22,7 @@
   },
   "private": true,
   "dependencies": {
+    "@agm/core": "^1.0.0-beta.5",
     "@angular/animations": "^6.1.8",
     "@angular/cdk": "^6.4.7",
     "@angular/common": "^6.1.0",

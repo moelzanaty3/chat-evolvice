@@ -9,6 +9,8 @@ import { HttpModule } from '@angular/http';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent, MapComponent, ChatComponent } from './_components';
+import { AgmCoreModule } from '@agm/core';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, MapComponent, ChatComponent],
@@ -19,7 +21,10 @@ import { HomeComponent, MapComponent, ChatComponent } from './_components';
     HttpModule,
     HttpClientModule,
     AppRoutingModule,
-    AppMaterialModule
+    AppMaterialModule,
+    AgmCoreModule.forRoot({
+      apiKey: `${environment.googleMapApiKey}`
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
