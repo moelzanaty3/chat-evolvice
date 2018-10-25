@@ -1,3 +1,8 @@
-<p>
-  messages works!
-</p>
+<div class="messages">
+  <ul>
+    <li *ngFor="let message of messages" [class]="message.type">
+      <img [src]="message.img" alt="" />
+      <p>{{message.text}}</p>
+    </li>
+  </ul>
+</div>

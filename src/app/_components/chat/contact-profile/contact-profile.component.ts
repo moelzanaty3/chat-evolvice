@@ -1,15 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-contact-profile',
+  selector: 'contact-profile',
   templateUrl: './contact-profile.component.html',
   styleUrls: ['./contact-profile.component.scss']
 })
 export class ContactProfileComponent implements OnInit {
+  social_icons = ['fa-facebook', 'fa-twitter'];
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
