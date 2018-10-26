@@ -1,0 +1,46 @@
+@import '../../../../styles/settings/_all';
+@import '../../../../styles/tools/_all';
+@import '../../../../styles/generic/_all';
+@import '../../../../styles/elements/_all';
+@import '../../../../styles/objects/_all';
+@import '../../../../styles/components/_all';
+
+:host {
+  width: 100%;
+  height: 60px;
+  display: block;
+  background: $bg-color-gray;
+}
+.contact-profile {
+  position: relative;
+  img {
+    width: 40px;
+    border-radius: 50%;
+    float: left;
+    margin: 9px 12px 0 9px;
+  }
+  img,
+  p {
+    float: left;
+  }
+  p,
+  .social__media {
+    position: relative;
+    transform: translateY(50%);
+  }
+  .social__media {
+    top: 10px;
+    float: right;
+    i {
+      margin-left: 16px;
+      cursor: pointer;
+      transition: color 0.1s ease-out;
+      &:nth-last-child(1) {
+        margin-right: 20px;
+      }
+      &:hover {
+        color: $color-brand;
+      }
+    }
+  }
+}

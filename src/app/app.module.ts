@@ -9,9 +9,14 @@ import { HttpModule } from '@angular/http';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent, MapComponent, ChatComponent } from './_components';
+import { AgmCoreModule } from '@agm/core';
+import { environment } from '../environments/environment';
+import { ContactProfileComponent } from './_components/chat/contact-profile/contact-profile.component';
+import { MessagesComponent } from './_components/chat/messages/messages.component';
+import { MessageInputComponent } from './_components/chat/message-input/message-input.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, MapComponent, ChatComponent],
+  declarations: [AppComponent, HomeComponent, MapComponent, ChatComponent, ContactProfileComponent, MessagesComponent, MessageInputComponent],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
@@ -19,7 +24,10 @@ import { HomeComponent, MapComponent, ChatComponent } from './_components';
     HttpModule,
     HttpClientModule,
     AppRoutingModule,
-    AppMaterialModule
+    AppMaterialModule,
+    AgmCoreModule.forRoot({
+      apiKey: `${environment.googleMapApiKey}`
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

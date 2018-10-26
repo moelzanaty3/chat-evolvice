@@ -1,14 +1,152 @@
 {
-  "items": [
+  "messages": [
+    {
+      "id": 1,
+      "messageText": "How the hell am I supposed to get a jury to believe you when I am not even sure that I do?!",
+      "createdDate": "Mon Feb 28 2017 04:26:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Mon Feb 28 2017 04:26:02 GMT+0200 (Eastern European Standard Time)",
+      "createdByUserId": 1,
+      "createdByUserName": "Birte Dittweiler",
+      "type": "sent",
+      "img": "assets/Birte.png"
+    },
+    {
+      "id": 2,
+      "messageText": "When you re backed against the wall, break the god damn thing down.",
+      "createdDate": "Mon Feb 29 2017 04:26:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Mon Feb 29 2017 04:26:02 GMT+0200 (Eastern European Standard Time)",
+      "createdByUserId": 2,
+      "createdByUserName": "Yannic Buchwald",
+      "type": "replies",
+      "img": "assets/Yannic.png"
+    },
+    {
+      "id": 3,
+      "messageText": "Excuses dont win championships.",
+      "createdDate": "Mon Jul 10 2017 06:26:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Mon Jul 10 2017 06:26:02 GMT+0200 (Eastern European Standard Time)",
+      "createdByUserId": 2,
+      "createdByUserName": "Yannic Buchwald",
+      "type": "replies",
+      "img": "assets/Yannic.png"
+    },
+    {
+      "id": 4,
+      "messageText": "Oh yeah, did Michael Jordan tell you that?",
+      "createdDate": "Mon Oct 10 2017 08:14:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Mon Oct 10 2017 08:14:02 GMT+0200 (Eastern European Standard Time)",
+      "createdByUserId": 1,
+      "createdByUserName": "Birte Dittweiler",
+      "type": "sent",
+      "img": "assets/Birte.png"
+    },
+    {
+      "id": 5,
+      "messageText": "No, I told him that.",
+      "createdDate": "Mon Nov 10 2017 09:12:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Mon Nov 10 2017 09:12:02 GMT+0200 (Eastern European Standard Time)",
+      "createdByUserId": 2,
+      "createdByUserName": "Yannic Buchwald",
+      "type": "replies",
+      "img": "assets/Yannic.png"
+    },
     {
       "id": 6,
-      "name": "ADASDASDAS",
-      "description": "This is a indigo item"
+      "messageText": "What are your choices when someone puts a gun to your head?",
+      "createdDate": "Sun Jun 22 2018 10:59:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Sun Jun 22 2018 10:59:02 GMT+0200 (Eastern European Standard Time)",
+      "createdByUserId": 2,
+      "createdByUserName": "Yannic Buchwald",
+      "type": "replies",
+      "img": "assets/Yannic.png"
     },
     {
       "id": 7,
-      "name": "Violet Item",
-      "description": "This is a violet item"
+      "messageText": "What are you talking about? You do what they say or they shoot you.",
+      "createdDate": "Sat Aug 27 2018 11:42:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Sat Aug 27 2018 11:42:02 GMT+0200 (Eastern European Standard Time)",
+      "createdByUserId": 1,
+      "createdByUserName": "Birte Dittweiler",
+      "type": "sent",
+      "img": "assets/Birte.png"
+    },
+    {
+      "id": 8,
+      "messageText": "Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of hundred and forty six other things.",
+      "createdDate": "Sat Oct 10 2018 08:12:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Sat Oct 10 2018 08:12:02 GMT+0200 (Eastern European Standard Time)",
+      "createdByUserId": 2,
+      "createdByUserName": "Yannic Buchwald",
+      "type": "replies",
+      "img": "assets/Yannic.png"
+    },
+    {
+      "messageText": "Now it's time to run i think",
+      "createdDate": "Sat Oct 27 2018 01:13:59 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Sat Oct 27 2018 01:13:59 GMT+0200 (Eastern European Standard Time)",
+      "createdByUserId": 2,
+      "createdByUserName": "Yannic Buchwald",
+      "type": "replies",
+      "img": "assets/Yannic.png",
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "status": "online",
+      "image": "assets/Birte.png",
+      "name": "Louis Litt",
+      "perview": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias exercitationem placeat dignissimos quidem deserunt explicabo hic dicta rem nobis eos porro, fugiatreprehenderit accusamus alias nisi culpa, fuga quia velit?"
+    },
+    {
+      "id": 2,
+      "status": "busy",
+      "image": "assets/avatar-7.png",
+      "name": "Mohammed Elzanaty",
+      "perview": "We'll meet again, Mike. Tell Jessica I said 'Hi'."
+    },
+    {
+      "id": 3,
+      "status": "away",
+      "image": "assets/avatar-1.png",
+      "name": "Harvey Specter",
+      "perview": "Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things."
+    },
+    {
+      "id": 4,
+      "status": "away",
+      "image": "assets/avatar-2.png",
+      "name": "Mohammed Elzanaty",
+      "perview": "Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things."
+    },
+    {
+      "id": 5,
+      "status": "online",
+      "image": "assets/avatar-3.png",
+      "name": "Rachel Zane",
+      "perview": "I was thinking that we could have chicken tonight, sounds good?"
+    },
+    {
+      "id": 6,
+      "status": "online",
+      "image": "assets/avatar-4.png",
+      "name": "Donna Paulsen",
+      "perview": "Mike, I know everything! I'm Donna.."
+    },
+    {
+      "id": 7,
+      "status": "busy",
+      "image": "assets/avatar-5.png",
+      "name": "Jessica Pearson",
+      "perview": "Have you finished the draft on the Hinsenburg deal?"
+    },
+    {
+      "id": 8,
+      "status": "away",
+      "image": "assets/avatar-6.png",
+      "name": "Harold Gunderson",
+      "perview": "Thanks Zanaty"
     }
   ]
 }

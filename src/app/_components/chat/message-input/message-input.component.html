@@ -1,0 +1,10 @@
+<div class="send-message">
+    <div class="text__container">
+        <mat-form-field>
+            <input type="text" matInput [(ngModel)]="message">
+        </mat-form-field>
+    </div>
+    <button mat-raised-button class="button__send" (click)="valueChanged()">
+        <mat-icon>send</mat-icon>
+    </button>
+</div>

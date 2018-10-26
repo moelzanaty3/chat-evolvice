@@ -1,0 +1,99 @@
+@import '../../../styles/settings/_all';
+@import '../../../styles/tools/_all';
+@import '../../../styles/generic/_all';
+@import '../../../styles/elements/_all';
+@import '../../../styles/objects/_all';
+@import '../../../styles/components/_all';
+
+.weclome-message {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacts {
+  ul {
+    list-style: none;
+    margin: 0;
+    li.contact {
+      position: relative;
+      padding: 10px 0 15px 10px;
+      font-size: 0.9em;
+      @media screen and (max-width: 735px) {
+        overflow-x: hidden;
+      }
+      cursor: pointer;
+      &:hover {
+        background: $color-grey;
+      }
+      &.active {
+        border-left: 5px solid $color-brand;
+        background: lighten($color: $color-brand, $amount: 40%);
+        color: $color-text;
+      }
+      @media screen and (max-width: 735px) {
+        padding: 6px 0 46px 8px;
+      }
+      .wrap {
+        margin: 0 auto;
+        position: relative;
+        .contact__status {
+          position: absolute;
+          left: 10px;
+          top: 5px;
+          margin: -2px 0 0 -2px;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          border: 2px solid $color-grey;
+          background: $color-brand;
+          @media screen and (max-width: 735px) {
+            margin: -6px 0 0 -6px;
+          }
+          &.online {
+            background: #2ecc71;
+          }
+          &.away {
+            background: #f1c40f;
+          }
+          &.busy {
+            background: #e74c3c;
+          }
+        }
+        .contact__img {
+          width: 80px;
+          border-radius: 50%;
+          float: left;
+          margin-right: 10px;
+          @media screen and (max-width: 735px) {
+            width: 50px;
+            margin-right: 0px;
+          }
+        }
+        .contact__meta {
+          padding: 5px 0 0 0;
+          @media screen and (max-width: 735px) {
+            position: relative;
+            left: 10px;
+          }
+          .contact__name {
+            font-weight: $font-weight-bold;
+            text-transform: uppercase;
+          }
+          .contact__preview {
+            margin: 5px 0 0 0;
+            padding: 0 0 1px;
+            font-weight: 400;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -moz-transition: 1s all ease;
+            -o-transition: 1s all ease;
+            -webkit-transition: 1s all ease;
+            transition: 1s all ease;
+          }
+        }
+      }
+    }
+  }
+}

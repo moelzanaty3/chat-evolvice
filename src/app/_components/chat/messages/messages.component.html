@@ -1,0 +1,14 @@
+<div class="messages">
+  <ul>
+    <li *ngFor="let message of messages" [class]="message.type">
+      <img [src]="message.img" alt="" />
+      <div class="message__container">
+        <div class="message___meta">
+          <h5>{{message.createdByUserName}}</h5>
+          <span>{{message.createdDate | date: 'shortTime' }}</span>
+        </div>
+        <p>{{message.messageText}}</p>
+      </div>
+    </li>
+  </ul>
+</div>
