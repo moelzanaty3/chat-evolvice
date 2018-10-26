@@ -1,0 +1,28 @@
+@import '../../../../styles/settings/_all';
+@import '../../../../styles/tools/_all';
+@import '../../../../styles/generic/_all';
+@import '../../../../styles/elements/_all';
+@import '../../../../styles/objects/_all';
+@import '../../../../styles/components/_all';
+
+.send-message {
+  max-width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  .text__container {
+    width: 100%;
+    mat-form-field {
+      width: 100%;
+      input {
+        padding: 11px 32px 10px 8px;
+        font-size: 0.8em;
+        color: darken($color-text-light-grey, 0.9);
+        border-top: 2px solid $color-grey;
+      }
+    }
+  }
+  .button__send {
+    width: 25px;
+  }
+}

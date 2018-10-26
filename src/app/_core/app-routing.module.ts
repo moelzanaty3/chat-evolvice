@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { HomeComponent, MapComponent, ChatComponent } from '../_components';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'map', component: MapComponent },
   { path: 'chat', component: ChatComponent },

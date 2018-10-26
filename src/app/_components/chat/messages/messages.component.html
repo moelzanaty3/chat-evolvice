@@ -2,7 +2,13 @@
   <ul>
     <li *ngFor="let message of messages" [class]="message.type">
       <img [src]="message.img" alt="" />
-      <p>{{message.text}}</p>
+      <div class="message__container">
+        <div class="message___meta">
+          <h5>{{message.name}}</h5>
+          <span>{{message.date | date: 'shortTime' }}</span>
+        </div>
+        <p>{{message.text}}</p>
+      </div>
     </li>
   </ul>
 </div>

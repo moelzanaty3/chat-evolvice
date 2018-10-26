@@ -23,7 +23,13 @@
   p {
     float: left;
   }
+  p,
   .social__media {
+    position: relative;
+    transform: translateY(50%);
+  }
+  .social__media {
+    top: 10px;
     float: right;
     i {
       margin-left: 16px;
