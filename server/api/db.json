@@ -8,7 +8,7 @@
       "createdByUserId": 1,
       "createdByUserName": "Birte Dittweiler",
       "type": "sent",
-      "img": "../../../../assets/Birte.png"
+      "img": "assets/Birte.png"
     },
     {
       "id": 2,
@@ -18,125 +18,145 @@
       "createdByUserId": 2,
       "createdByUserName": "Yannic Buchwald",
       "type": "replies",
-      "img": "../../../../assets/Yannic.png"
+      "img": "assets/Yannic.png"
     },
     {
-      "id": 2,
+      "id": 3,
       "messageText": "Excuses dont win championships.",
       "createdDate": "2017-05-5",
       "modifiedDate": "2017-05-10",
       "createdByUserId": 2,
       "createdByUserName": "Yannic Buchwald",
       "type": "replies",
-      "img": "../../../../assets/Yannic.png"
+      "img": "assets/Yannic.png"
     },
     {
-      "id": 1,
+      "id": 4,
       "messageText": "Oh yeah, did Michael Jordan tell you that?",
       "createdDate": "2017-10-12",
       "modifiedDate": "2017-10-10",
       "createdByUserId": 1,
       "createdByUserName": "Birte Dittweiler",
       "type": "sent",
-      "img": "../../../../assets/Birte.png"
+      "img": "assets/Birte.png"
     },
     {
-      "id": 2,
+      "id": 5,
       "messageText": "No, I told him that.",
       "createdDate": "2017-10-12",
       "modifiedDate": "2017-10-10",
       "createdByUserId": 2,
       "createdByUserName": "Yannic Buchwald",
       "type": "replies",
-      "img": "../../../../assets/Yannic.png"
+      "img": "assets/Yannic.png"
     },
     {
-      "id": 2,
+      "id": 6,
       "messageText": "What are your choices when someone puts a gun to your head?",
       "createdDate": "2017-12-22",
       "modifiedDate": "2017-12-22",
       "createdByUserId": 2,
       "createdByUserName": "Yannic Buchwald",
       "type": "replies",
-      "img": "../../../../assets/Yannic.png"
+      "img": "assets/Yannic.png"
     },
     {
-      "id": 1,
+      "id": 7,
       "messageText": "What are you talking about? You do what they say or they shoot you.",
       "createdDate": "2018-8-4",
       "modifiedDate": "2018-9-12",
       "createdByUserId": 1,
       "createdByUserName": "Birte Dittweiler",
       "type": "sent",
-      "img": "../../../../assets/Birte.png"
+      "img": "assets/Birte.png"
     },
     {
-      "id": 2,
+      "id": 8,
       "messageText": "Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of hundred and forty six other things.",
       "createdDate": "2018-10-10",
       "modifiedDate": "2018-10-10",
       "createdByUserId": 2,
       "createdByUserName": "Yannic Buchwald",
       "type": "replies",
-      "img": "../../../../assets/Yannic.png"
+      "img": "assets/Yannic.png"
+    },
+    {
+      "id": 11,
+      "messageText": "Hello",
+      "createdDate": "2018-10-27",
+      "modifiedDate": "2018-10-27",
+      "createdByUserId": 2,
+      "createdByUserName": "Yannic Buchwald",
+      "type": "replies",
+      "img": "assets/Yannic.png"
+    },
+    {
+      "messageText": "Hello Dear",
+      "createdDate": "2018-10-27",
+      "modifiedDate": "2018-10-27",
+      "createdByUserId": 2,
+      "createdByUserName": "Yannic Buchwald",
+      "type": "replies",
+      "img": "assets/Yannic.png",
+      "id": 12
     }
   ],
   "users": [
     {
       "id": 1,
-      "contact_status": "online",
-      "contact_image": "../../../assets/Birte.png",
-      "contact_name": "Louis Litt",
-      "contact_perview": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias exercitationem placeat dignissimos quidem deserunt explicabo hic dicta rem nobis eos porro, fugiatreprehenderit accusamus alias nisi culpa, fuga quia velit?"
+      "status": "online",
+      "image": "assets/Birte.png",
+      "name": "Louis Litt",
+      "perview": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias exercitationem placeat dignissimos quidem deserunt explicabo hic dicta rem nobis eos porro, fugiatreprehenderit accusamus alias nisi culpa, fuga quia velit?"
     },
     {
       "id": 2,
-      "contact_status": "busy",
-      "contact_image": "../../../assets/avatar-7.png",
-      "contact_name": "Mohammed Elzanaty",
-      "contact_perview": "We'll meet again, Mike. Tell Jessica I said 'Hi'."
+      "status": "busy",
+      "image": "assets/avatar-7.png",
+      "name": "Mohammed Elzanaty",
+      "perview": "We'll meet again, Mike. Tell Jessica I said 'Hi'."
     },
     {
       "id": 3,
-      "contact_status": "away",
-      "contact_image": "../../../assets/avatar-1.png",
-      "contact_name": "Harvey Specter",
-      "contact_perview": "Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things."
+      "status": "away",
+      "image": "assets/avatar-1.png",
+      "name": "Harvey Specter",
+      "perview": "Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things."
     },
     {
       "id": 4,
-      "contact_status": "away",
-      "contact_image": "../../../assets/avatar-2.png",
-      "contact_name": "Mohammed Elzanaty",
-      "contact_perview": "Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things."
+      "status": "away",
+      "image": "assets/avatar-2.png",
+      "name": "Mohammed Elzanaty",
+      "perview": "Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things."
     },
     {
       "id": 5,
-      "contact_status": "online",
-      "contact_image": "../../../assets/avatar-3.png",
-      "contact_name": "Rachel Zane",
-      "contact_perview": "I was thinking that we could have chicken tonight, sounds good?"
+      "status": "online",
+      "image": "assets/avatar-3.png",
+      "name": "Rachel Zane",
+      "perview": "I was thinking that we could have chicken tonight, sounds good?"
     },
     {
       "id": 6,
-      "contact_status": "online",
-      "contact_image": "../../../assets/avatar-4.png",
-      "contact_name": "Donna Paulsen",
-      "contact_perview": "Mike, I know everything! I'm Donna.."
+      "status": "online",
+      "image": "assets/avatar-4.png",
+      "name": "Donna Paulsen",
+      "perview": "Mike, I know everything! I'm Donna.."
     },
     {
       "id": 7,
-      "contact_status": "busy",
-      "contact_image": "../../../assets/avatar-5.png",
-      "contact_name": "Jessica Pearson",
-      "contact_perview": "Have you finished the draft on the Hinsenburg deal?"
+      "status": "busy",
+      "image": "assets/avatar-5.png",
+      "name": "Jessica Pearson",
+      "perview": "Have you finished the draft on the Hinsenburg deal?"
     },
     {
       "id": 8,
-      "contact_status": "away",
-      "contact_image": "../../../assets/avatar-6.png",
-      "contact_name": "Harold Gunderson",
-      "contact_perview": "Thanks Zanaty"
+      "status": "away",
+      "image": "assets/avatar-6.png",
+      "name": "Harold Gunderson",
+      "perview": "Thanks Zanaty"
     }
   ]
 }

@@ -7,11 +7,11 @@
   <ul>
     <li class="contact" *ngFor="let user of users; let isFirst = first" [class.active]="isFirst">
       <div class="wrap">
-        <span class="contact__status {{user.contact_status}}"></span>
-        <img class="contact__img" [src]="user.contact_image" [alt]="user.contact_name" />
+        <span class="contact__status {{user.status}}"></span>
+        <img class="contact__img" [src]="user.image" [alt]="user.name" />
         <div class="contact__meta">
-          <p class="contact__name">{{user.contact_name}}</p>
-          <p class="contact__preview">{{user.contact_perview}}</p>
+          <p class="contact__name">{{user.name}}</p>
+          <p class="contact__preview">{{user.perview}}</p>
         </div>
       </div>
     </li>

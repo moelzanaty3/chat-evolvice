@@ -5,10 +5,10 @@
     </div>
     <!-- messages -->
     <div class="chat__content">
-        <messages></messages>
+        <messages [messages]='messages'></messages>
     </div>
     <!-- text input -->
     <div class="chat__footer">
-        <message-input></message-input>
+        <message-input (valueChange)="sendMessage($event)"></message-input>
     </div>
 </div>

@@ -1,10 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-export interface IUser {
-  contact_status: string;
-  contact_image: string;
-  contact_name: string;
-  contact_perview: string;
-}
+import { IUser } from './../../_model/user';
+import { UsersService } from '../../_services';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -12,7 +9,11 @@ export interface IUser {
 })
 export class HomeComponent implements OnInit {
   users: IUser[];
-  constructor() {}
+  constructor(private usersService: UsersService) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.usersService
+      .getAll()
+      .subscribe((data: IUser[]) => (this.users = data));
+  }
 }
