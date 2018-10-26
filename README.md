@@ -1,6 +1,6 @@
-# Angular Rest App
+# Chat Evolvice
 
-A simple REST app built using Angular, Angular Material and the Angular CLI.
+A simple chat between 2 participants, using Angular, Angular Material and the Angular CLI.
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@ $ npm install
 $ npm start
 ```
 
-Then navigate to [http://localhost:8000](http://localhost:8000/#/items) in your browser.
+Then navigate to [http://localhost:4200](http://localhost:3000/#/messages) in your browser.
 
 > Note: the above terminal commands are for Mac. Remember to substitute the appropriate commands for your OS.
 
