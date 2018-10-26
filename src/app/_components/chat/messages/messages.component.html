@@ -4,10 +4,10 @@
       <img [src]="message.img" alt="" />
       <div class="message__container">
         <div class="message___meta">
-          <h5>{{message.name}}</h5>
-          <span>{{message.date | date: 'shortTime' }}</span>
+          <h5>{{message.createdByUserName}}</h5>
+          <span>{{message.createdDate | date: 'shortTime' }}</span>
         </div>
-        <p>{{message.text}}</p>
+        <p>{{message.messageText}}</p>
       </div>
     </li>
   </ul>
