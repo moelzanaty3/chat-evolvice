@@ -1,4 +1,3 @@
-import { IMessage } from './../../_model/message';
 import { Component, OnInit } from '@angular/core';
 import { IMessage } from '../../_model';
 import { MessageService } from '../../_services';
@@ -33,13 +32,12 @@ export class ChatComponent implements OnInit {
   }
   createMessage(message) {
     let id;
-    const dateISO = new Date();
-    const today = dateISO.getFullYear() + '-' + (dateISO.getMonth() + 1) + '-' + dateISO.getDate();
+    const date = new Date().toString();
     const newMessage: IMessage = {
       id: id,
       messageText: message,
-      createdDate: today,
-      modifiedDate: today,
+      createdDate: date,
+      modifiedDate: date,
       createdByUserId: 2,
       createdByUserName: 'Yannic Buchwald',
       type: 'replies',

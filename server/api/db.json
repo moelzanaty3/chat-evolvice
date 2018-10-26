@@ -3,8 +3,8 @@
     {
       "id": 1,
       "messageText": "How the hell am I supposed to get a jury to believe you when I am not even sure that I do?!",
-      "createdDate": "2017-02-28",
-      "modifiedDate": "2017-02-28",
+      "createdDate": "Mon Feb 28 2017 04:26:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Mon Feb 28 2017 04:26:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 1,
       "createdByUserName": "Birte Dittweiler",
       "type": "sent",
@@ -13,8 +13,8 @@
     {
       "id": 2,
       "messageText": "When you re backed against the wall, break the god damn thing down.",
-      "createdDate": "2017-02-29",
-      "modifiedDate": "2017-02-29",
+      "createdDate": "Mon Feb 29 2017 04:26:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Mon Feb 29 2017 04:26:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 2,
       "createdByUserName": "Yannic Buchwald",
       "type": "replies",
@@ -23,8 +23,8 @@
     {
       "id": 3,
       "messageText": "Excuses dont win championships.",
-      "createdDate": "2017-05-5",
-      "modifiedDate": "2017-05-10",
+      "createdDate": "Mon Jul 10 2017 06:26:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Mon Jul 10 2017 06:26:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 2,
       "createdByUserName": "Yannic Buchwald",
       "type": "replies",
@@ -33,8 +33,8 @@
     {
       "id": 4,
       "messageText": "Oh yeah, did Michael Jordan tell you that?",
-      "createdDate": "2017-10-12",
-      "modifiedDate": "2017-10-10",
+      "createdDate": "Mon Oct 10 2017 08:14:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Mon Oct 10 2017 08:14:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 1,
       "createdByUserName": "Birte Dittweiler",
       "type": "sent",
@@ -43,8 +43,8 @@
     {
       "id": 5,
       "messageText": "No, I told him that.",
-      "createdDate": "2017-10-12",
-      "modifiedDate": "2017-10-10",
+      "createdDate": "Mon Nov 10 2017 09:12:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Mon Nov 10 2017 09:12:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 2,
       "createdByUserName": "Yannic Buchwald",
       "type": "replies",
@@ -53,8 +53,8 @@
     {
       "id": 6,
       "messageText": "What are your choices when someone puts a gun to your head?",
-      "createdDate": "2017-12-22",
-      "modifiedDate": "2017-12-22",
+      "createdDate": "Sun Jun 22 2018 10:59:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Sun Jun 22 2018 10:59:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 2,
       "createdByUserName": "Yannic Buchwald",
       "type": "replies",
@@ -63,8 +63,8 @@
     {
       "id": 7,
       "messageText": "What are you talking about? You do what they say or they shoot you.",
-      "createdDate": "2018-8-4",
-      "modifiedDate": "2018-9-12",
+      "createdDate": "Sat Aug 27 2018 11:42:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Sat Aug 27 2018 11:42:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 1,
       "createdByUserName": "Birte Dittweiler",
       "type": "sent",
@@ -73,32 +73,12 @@
     {
       "id": 8,
       "messageText": "Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of hundred and forty six other things.",
-      "createdDate": "2018-10-10",
-      "modifiedDate": "2018-10-10",
+      "createdDate": "Sat Oct 10 2018 08:12:02 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Sat Oct 10 2018 08:12:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 2,
       "createdByUserName": "Yannic Buchwald",
       "type": "replies",
       "img": "assets/Yannic.png"
-    },
-    {
-      "id": 11,
-      "messageText": "Hello",
-      "createdDate": "2018-10-27",
-      "modifiedDate": "2018-10-27",
-      "createdByUserId": 2,
-      "createdByUserName": "Yannic Buchwald",
-      "type": "replies",
-      "img": "assets/Yannic.png"
-    },
-    {
-      "messageText": "Hello Dear",
-      "createdDate": "2018-10-27",
-      "modifiedDate": "2018-10-27",
-      "createdByUserId": 2,
-      "createdByUserName": "Yannic Buchwald",
-      "type": "replies",
-      "img": "assets/Yannic.png",
-      "id": 12
     }
   ],
   "users": [
