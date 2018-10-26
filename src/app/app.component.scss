@@ -12,7 +12,6 @@
   min-width: 100vw;
 }
 .app-content {
-  padding: 15px;
   flex: 1;
   overflow-y: auto;
 }
@@ -26,6 +25,7 @@ mat-toolbar {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
   z-index: 1;
+  height: 45px !important;
 
   span {
     font-weight: $font-weight-bold;

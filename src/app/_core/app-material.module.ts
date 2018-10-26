@@ -12,21 +12,22 @@ import {
 @NgModule({
   imports: [
     MatTabsModule,
-    MatButtonModule,
     MatIconModule,
-    MatInputModule,
     MatListModule,
     MatToolbarModule,
-    MatFormFieldModule
+
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule
   ],
   exports: [
     MatTabsModule,
-    MatButtonModule,
     MatIconModule,
-    MatInputModule,
     MatListModule,
     MatToolbarModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule
   ]
 })
 export class AppMaterialModule {}
