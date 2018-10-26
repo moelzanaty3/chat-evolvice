@@ -19,6 +19,9 @@
       position: relative;
       padding: 10px 0 15px 10px;
       font-size: 0.9em;
+      @media screen and (max-width: 735px) {
+        overflow-x: hidden;
+      }
       cursor: pointer;
       &:hover {
         background: $color-grey;
@@ -44,6 +47,9 @@
           border-radius: 50%;
           border: 2px solid $color-grey;
           background: $color-brand;
+          @media screen and (max-width: 735px) {
+            margin: -6px 0 0 -6px;
+          }
           &.online {
             background: #2ecc71;
           }
