@@ -99,6 +99,26 @@
       "type": "replies",
       "img": "assets/Yannic.png",
       "id": 10
+    },
+    {
+      "messageText": "Hello",
+      "createdDate": "Sat Oct 27 2018 01:28:48 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Sat Oct 27 2018 01:28:48 GMT+0200 (Eastern European Standard Time)",
+      "createdByUserId": 2,
+      "createdByUserName": "Yannic Buchwald",
+      "type": "replies",
+      "img": "assets/Yannic.png",
+      "id": 11
+    },
+    {
+      "messageText": "hello Fared",
+      "createdDate": "Sat Oct 27 2018 15:05:34 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Sat Oct 27 2018 15:05:34 GMT+0200 (Eastern European Standard Time)",
+      "createdByUserId": 2,
+      "createdByUserName": "Yannic Buchwald",
+      "type": "replies",
+      "img": "assets/Yannic.png",
+      "id": 12
     }
   ],
   "users": [
