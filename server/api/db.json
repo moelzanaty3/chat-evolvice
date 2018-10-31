@@ -6,9 +6,9 @@
       "createdDate": "Mon Feb 28 2017 04:26:02 GMT+0200 (Eastern European Standard Time)",
       "modifiedDate": "Mon Feb 28 2017 04:26:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 1,
-      "createdByUserName": "Birte Dittweiler",
+      "createdByUserName": "Hamza Mohammed",
       "type": "sent",
-      "img": "assets/Birte.png"
+      "img": "assets/images/face-1.jpg"
     },
     {
       "id": 2,
@@ -16,9 +16,9 @@
       "createdDate": "Mon Feb 29 2017 04:26:02 GMT+0200 (Eastern European Standard Time)",
       "modifiedDate": "Mon Feb 29 2017 04:26:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 2,
-      "createdByUserName": "Yannic Buchwald",
+      "createdByUserName": "Mohammed Saad",
       "type": "replies",
-      "img": "assets/Yannic.png"
+      "img": "assets/images/face-1.jpg"
     },
     {
       "id": 3,
@@ -26,9 +26,9 @@
       "createdDate": "Mon Jul 10 2017 06:26:02 GMT+0200 (Eastern European Standard Time)",
       "modifiedDate": "Mon Jul 10 2017 06:26:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 2,
-      "createdByUserName": "Yannic Buchwald",
+      "createdByUserName": "Mohammed Saad",
       "type": "replies",
-      "img": "assets/Yannic.png"
+      "img": "assets/images/face-2.jpg"
     },
     {
       "id": 4,
@@ -36,9 +36,9 @@
       "createdDate": "Mon Oct 10 2017 08:14:02 GMT+0200 (Eastern European Standard Time)",
       "modifiedDate": "Mon Oct 10 2017 08:14:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 1,
-      "createdByUserName": "Birte Dittweiler",
+      "createdByUserName": "Hamza Mohammed",
       "type": "sent",
-      "img": "assets/Birte.png"
+      "img": "assets/images/face-1.jpg"
     },
     {
       "id": 5,
@@ -46,9 +46,9 @@
       "createdDate": "Mon Nov 10 2017 09:12:02 GMT+0200 (Eastern European Standard Time)",
       "modifiedDate": "Mon Nov 10 2017 09:12:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 2,
-      "createdByUserName": "Yannic Buchwald",
+      "createdByUserName": "Mohammed Saad",
       "type": "replies",
-      "img": "assets/Yannic.png"
+      "img": "assets/images/face-2.jpg"
     },
     {
       "id": 6,
@@ -56,9 +56,9 @@
       "createdDate": "Sun Jun 22 2018 10:59:02 GMT+0200 (Eastern European Standard Time)",
       "modifiedDate": "Sun Jun 22 2018 10:59:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 2,
-      "createdByUserName": "Yannic Buchwald",
+      "createdByUserName": "Mohammed Saad",
       "type": "replies",
-      "img": "assets/Yannic.png"
+      "img": "assets/images/face-2.jpg"
     },
     {
       "id": 7,
@@ -66,9 +66,9 @@
       "createdDate": "Sat Aug 27 2018 11:42:02 GMT+0200 (Eastern European Standard Time)",
       "modifiedDate": "Sat Aug 27 2018 11:42:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 1,
-      "createdByUserName": "Birte Dittweiler",
+      "createdByUserName": "Hamza Mohammed",
       "type": "sent",
-      "img": "assets/Birte.png"
+      "img": "assets/images/face-1.jpg"
     },
     {
       "id": 8,
@@ -76,106 +76,76 @@
       "createdDate": "Sat Oct 10 2018 08:12:02 GMT+0200 (Eastern European Standard Time)",
       "modifiedDate": "Sat Oct 10 2018 08:12:02 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 2,
-      "createdByUserName": "Yannic Buchwald",
+      "createdByUserName": "Mohammed Saad",
       "type": "replies",
-      "img": "assets/Yannic.png"
+      "img": "assets/images/face-2.jpg"
     },
     {
       "messageText": "Now it's time to run i think",
       "createdDate": "Sat Oct 27 2018 01:13:59 GMT+0200 (Eastern European Standard Time)",
       "modifiedDate": "Sat Oct 27 2018 01:13:59 GMT+0200 (Eastern European Standard Time)",
       "createdByUserId": 2,
-      "createdByUserName": "Yannic Buchwald",
+      "createdByUserName": "Mohammed Saad",
       "type": "replies",
-      "img": "assets/Yannic.png",
+      "img": "assets/images/face-2.jpg",
       "id": 9
-    },
-    {
-      "messageText": "hello from here ",
-      "createdDate": "Sat Oct 27 2018 01:21:52 GMT+0200 (Eastern European Standard Time)",
-      "modifiedDate": "Sat Oct 27 2018 01:21:52 GMT+0200 (Eastern European Standard Time)",
-      "createdByUserId": 2,
-      "createdByUserName": "Yannic Buchwald",
-      "type": "replies",
-      "img": "assets/Yannic.png",
-      "id": 10
-    },
-    {
-      "messageText": "Hello",
-      "createdDate": "Sat Oct 27 2018 01:28:48 GMT+0200 (Eastern European Standard Time)",
-      "modifiedDate": "Sat Oct 27 2018 01:28:48 GMT+0200 (Eastern European Standard Time)",
-      "createdByUserId": 2,
-      "createdByUserName": "Yannic Buchwald",
-      "type": "replies",
-      "img": "assets/Yannic.png",
-      "id": 11
-    },
-    {
-      "messageText": "hello Fared",
-      "createdDate": "Sat Oct 27 2018 15:05:34 GMT+0200 (Eastern European Standard Time)",
-      "modifiedDate": "Sat Oct 27 2018 15:05:34 GMT+0200 (Eastern European Standard Time)",
-      "createdByUserId": 2,
-      "createdByUserName": "Yannic Buchwald",
-      "type": "replies",
-      "img": "assets/Yannic.png",
-      "id": 12
     }
   ],
   "users": [
     {
       "id": 1,
       "status": "online",
-      "image": "assets/Birte.png",
-      "name": "Louis Litt",
+      "image": "assets/images/face-1.jpg",
+      "name": "Mohammed Elzanaty",
       "perview": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias exercitationem placeat dignissimos quidem deserunt explicabo hic dicta rem nobis eos porro, fugiatreprehenderit accusamus alias nisi culpa, fuga quia velit?"
     },
     {
       "id": 2,
       "status": "busy",
-      "image": "assets/avatar-7.png",
+      "image": "assets/images/face-2.jpg",
       "name": "Mohammed Elzanaty",
       "perview": "We'll meet again, Mike. Tell Jessica I said 'Hi'."
     },
     {
       "id": 3,
       "status": "away",
-      "image": "assets/avatar-1.png",
-      "name": "Harvey Specter",
+      "image": "assets/images/avatar-1.png",
+      "name": "Lorem ipsum",
       "perview": "Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things."
     },
     {
       "id": 4,
       "status": "away",
-      "image": "assets/avatar-2.png",
+      "image": "assets/images/avatar-2.png",
       "name": "Mohammed Elzanaty",
       "perview": "Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things."
     },
     {
       "id": 5,
       "status": "online",
-      "image": "assets/avatar-3.png",
-      "name": "Rachel Zane",
+      "image": "assets/images/avatar-3.png",
+      "name": "Lorem ipsum",
       "perview": "I was thinking that we could have chicken tonight, sounds good?"
     },
     {
       "id": 6,
       "status": "online",
-      "image": "assets/avatar-4.png",
-      "name": "Donna Paulsen",
+      "image": "assets/images/avatar-4.png",
+      "name": "Lorem ipsum",
       "perview": "Mike, I know everything! I'm Donna.."
     },
     {
       "id": 7,
       "status": "busy",
-      "image": "assets/avatar-5.png",
-      "name": "Jessica Pearson",
+      "image": "assets/images/avatar-5.png",
+      "name": "Lorem ipsum",
       "perview": "Have you finished the draft on the Hinsenburg deal?"
     },
     {
       "id": 8,
       "status": "away",
-      "image": "assets/avatar-6.png",
-      "name": "Harold Gunderson",
+      "image": "assets/images/avatar-6.png",
+      "name": "HLorem ipsum",
       "perview": "Thanks Zanaty"
     }
   ]
