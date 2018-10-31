@@ -89,6 +89,16 @@
       "type": "replies",
       "img": "assets/images/face-2.jpg",
       "id": 9
+    },
+    {
+      "messageText": "Welcome Now From Firebase ",
+      "createdDate": "Wed Oct 31 2018 21:23:51 GMT+0200 (Eastern European Standard Time)",
+      "modifiedDate": "Wed Oct 31 2018 21:23:51 GMT+0200 (Eastern European Standard Time)",
+      "createdByUserId": 2,
+      "createdByUserName": "Mohammed Saad",
+      "type": "replies",
+      "img": "assets/images/face-2.jpg",
+      "id": 10
     }
   ],
   "users": [
